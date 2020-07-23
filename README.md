@@ -1,6 +1,6 @@
 # Django RESTful authentication app
 
-> uses [django rest framework]("https://www.django-rest-framework.org/")
+> uses [django rest framework](https://www.django-rest-framework.org/)
 
 ***
 
@@ -24,7 +24,7 @@ source ./venv/bin/activate
 pip install requiements.txt
 ```
 
-- by default django uses [Sqlite]("https://www.sqlite.org/index.html") as database and first you should mgrate the models in the database
+- by default django uses [Sqlite](https://www.sqlite.org/index.html) as database and first you should mgrate the models in the database
 
 ```bash
 python manage.py makemigrations && python manage.py migrate
@@ -61,10 +61,10 @@ also I add ```is_verified``` field and the user should verify the account by the
 
 ### 3rd party packages
 
-- [django]("https://www.djangoproject.com/")
-- [django rest ramework]("https://www.django-rest-framework.org/")
-- [django rest frmaework simple jwt]("https://django-rest-framework-simplejwt.readthedocs.io/en/latest/")
-- [drf-yasg]("https://drf-yasg.readthedocs.io/en/stable/")
+- [django](https://www.djangoproject.com/)
+- [django rest ramework](https://www.django-rest-framework.org/)
+- [django rest frmaework simple jwt](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
+- [drf-yasg](https://drf-yasg.readthedocs.io/en/stable/)
 
 ***
 
